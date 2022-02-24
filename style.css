@@ -1,0 +1,50 @@
+/* Style sheet for odin-recipes */
+
+/* Type Selectors */
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+/* link and visited link  */
+a:link, 
+a.visited {
+    color: blue;
+  }
+  
+  /* mouse over link and selected link */
+  a:hover,
+  a:active {
+    color: red;
+  }
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:active {
+    text-decoration: underline;
+  }
+
+/* Class Selectors */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .listRecipes {
+      list-style-type: none;
+      font-size: 24px;
+      text-align: center;
+  }
