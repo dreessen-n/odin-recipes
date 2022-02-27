@@ -16,6 +16,19 @@ body {
   background-color: lightgreen;
 }
 
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+li {
+  font-size: 18px;
+}
+
+li.ref {
+  font-size: 30px;
+}
+
 /* link and visited link  */
 a:link, 
 a.visited {
@@ -49,6 +62,6 @@ a.visited {
 
   .listRecipes {
       list-style-type: none;
-      font-size: 24px;
+      font-size: 50px;
       text-align: center;
   }
