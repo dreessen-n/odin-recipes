@@ -12,10 +12,6 @@ img {
     height: 400px;
 }
 
-body {
-  background-color: lightgreen;
-}
-
 p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -23,11 +19,7 @@ p {
 
 li {
   font-size: 18px;
-}
-
-li.ref {
-  font-size: 30px;
-}
+} 
 
 /* link and visited link  */
 a:link, 
@@ -62,6 +54,15 @@ a.visited {
 
   .listRecipes {
       list-style-type: none;
-      font-size: 50px;
+      font-size: 30px;
       text-align: center;
   }
+
+  .listRefernce {
+    font-size: 16px;
+  }
+
+  body#homepage {
+    background-color: lightgreen;
+  }
+  
